@@ -9,9 +9,17 @@
 </head>
 
 <body>
-    <h1>
-        Hello World!
-    </h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home')}}">Home</a></li>
+            <li><a href="{{ url_for('menu')}}">Menu</a></li>
+            <li><a href="{{ url_for('booking')}}">Booking</a></li>
+        </ul>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
 </body>
 
 </html>
