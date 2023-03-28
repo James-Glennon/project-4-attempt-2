@@ -81,6 +81,12 @@ Main header image from [secretdublin.com](https://secretdublin.com/most-beautifu
 Dublin at night image from [IrishCentral.com](https://www.irishcentral.com/travel/travel-tips/what-to-do-winters-evening-dublin)
 *[Image Location](https://www.irishcentral.com/uploads/article/117387/cropped_Dublin_City_Night_iStock.JPG?t=1667554775)*
 
+Fine food image from [finefoodspecialist.co.uk](https://www.finefoodspecialist.co.uk/)
+*[Image Location](https://www.finefoodspecialist.co.uk/media/homeimages/wagyu_steak_level_1_.jpg)*
+
+Romantic diners image from [Clayton Hotel ballsbridge](https://www.claytonhotelballsbridge.com/blog/fine-dining-in-dublin/)
+*[Image Location](https://www.claytonhotelballsbridge.com/wp-content/uploads/sites/8/2019/07/couple-enjoying-romantic-dinner-restaurant-1024x680.jpg)*
+
 UX theme created by [Start Bootstrap](https://startbootstrap.com/previews/one-page-wonder)
 
 favicon taken from [Icons8](https://icons8.com/icon/111450/dining-room)
