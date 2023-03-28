@@ -78,10 +78,15 @@ for Managerial staff;
 Main header image from [secretdublin.com](https://secretdublin.com/most-beautiful-restaurants/)
 *[Image location](https://offloadmedia.feverup.com/secretdublin.com/wp-content/uploads/2022/02/28053553/49741353_2225002007716056_2774068992225050624_n.png)*
 
-HTML coded using [Bootstrap](https://getbootstrap.com/)
+Dublin at night image from [IrishCentral.com](https://www.irishcentral.com/travel/travel-tips/what-to-do-winters-evening-dublin)
+*[Image Location](https://www.irishcentral.com/uploads/article/117387/cropped_Dublin_City_Night_iStock.JPG?t=1667554775)*
 
 UX theme created by [Start Bootstrap](https://startbootstrap.com/previews/one-page-wonder)
 
+favicon taken from [Icons8](https://icons8.com/icon/111450/dining-room)
+
 ### Code
 
-Website was built following instructions provided in the flask and database management lessons provided by Code Institute, taught by Tim Nelson
+HTML coded using [Bootstrap](https://getbootstrap.com/)
+
+Website was built closely following instructions provided in the flask and database management lessons provided by Code Institute, taught by Tim Nelson
