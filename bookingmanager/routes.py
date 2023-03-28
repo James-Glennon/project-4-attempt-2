@@ -15,3 +15,8 @@ def menu():
 @app.route("/booking")
 def booking():
     return render_template("booking.html")
+
+
+@app.route("/base")
+def base():
+    return render_template("base.html")

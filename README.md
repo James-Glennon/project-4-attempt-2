@@ -75,6 +75,9 @@ for Managerial staff;
 
 ### Media / UX
 
+Main header image from [secretdublin.com](https://secretdublin.com/most-beautiful-restaurants/)
+*[Image location](https://offloadmedia.feverup.com/secretdublin.com/wp-content/uploads/2022/02/28053553/49741353_2225002007716056_2774068992225050624_n.png)*
+
 HTML coded using [Bootstrap](https://getbootstrap.com/)
 
 UX theme created by [Start Bootstrap](https://startbootstrap.com/previews/one-page-wonder)
