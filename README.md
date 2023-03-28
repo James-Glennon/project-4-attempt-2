@@ -73,10 +73,12 @@ for Managerial staff;
 
 ## Credit / References
 
+### Media / UX
+
 HTML coded using [Bootstrap](https://getbootstrap.com/)
 
-UX theme created by [Start Bootstrap]()
+UX theme created by [Start Bootstrap](https://startbootstrap.com/previews/one-page-wonder)
 
-Fav icon gererated with [Favicon.io](https://favicon.io/)
+### Code
 
-custom fonts imported from [Google fonts](https://fonts.google.com/)
+Website was built following instructions provided in the flask and database management lessons provided by Code Institute, taught by Tim Nelson
