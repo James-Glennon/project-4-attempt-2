@@ -28,11 +28,12 @@
                 </ul>
             </p>
         </div>
-
         <!-- code for form taken from the flask post method lessons by CI instructor Tim Nelson -->
+        <!-- Booking request form -->
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <form method="POST" name="sentMessage" id="contactForm" novalidate>
+                    <!-- Name input -->
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
                             <label>Name</label>
@@ -40,6 +41,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
+                    <!-- Email input -->
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
                             <label>Email Address</label>
@@ -47,6 +49,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
+                    <!-- Phone no. input -->
                     <div class="control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Phone Number</label>
@@ -54,6 +57,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
+                    <!-- Booking date input -->
                     <div class="control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Booking Date</label>
@@ -61,13 +65,32 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
+                    <!-- Booking time input -->
                     <div class="control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Booking Time</label>
-                            <input type="time" class="form-control" placeholder="Booking Time" name="booking-time" id="booking-time" required data-validation-required-message="Please enter a time for you booking.">
-                            <p class="help-block text-danger"></p>
+                        <label>Booking Time</label>
+                        <br>
+                        <select class="custom-select form-control" id="booking-time" name="booking-time" required>
+                          <option selected>Please select a time slot.</option>
+                          <option value="12:00">12:00</option>
+                          <option value="12:30">12:30</option>
+                          <option value="13:00">13:00</option>
+                          <option value="13:30">13:30</option>
+                          <option value="14:00">14:00</option>
+                          <option value="14:30">14:30</option>
+                          <option value="15:00">15:00</option>
+                          <option value="15:30">15:30</option>
+                          <option value="16:00">16:00</option>
+                          <option value="16:30">16:30</option>
+                          <option value="17:00">17:00</option>
+                          <option value="17:30">17:30</option>
+                          <option value="18:00">18:00</option>
+                          <option value="18:30">18:30</option>
+                          <option value="19:00">19:00</option>
+                        </select>
                         </div>
-                    </div>
+                      </div>
+                    <!-- Booking form submit button -->
                     <br>
                     <div id="success"></div>
                     <div class="form-group text-center pb-3">
