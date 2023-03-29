@@ -4,19 +4,15 @@ from bookingmanager import app, db
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html", page_title="About Us")
 
 
 @app.route("/menu")
 def menu():
-    return render_template("menu.html")
+    return render_template("menu.html", page_title="Menu")
 
 
 @app.route("/booking")
 def booking():
-    return render_template("booking.html")
+    return render_template("booking.html", page_title="Booking")
 
-
-@app.route("/base")
-def base():
-    return render_template("base.html")
