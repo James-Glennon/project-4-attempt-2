@@ -91,6 +91,8 @@ UX theme created by [Start Bootstrap](https://startbootstrap.com/previews/one-pa
 
 favicon taken from [Icons8](https://icons8.com/icon/111450/dining-room)
 
+---
+
 ### Code
 
 HTML coded using [Bootstrap](https://getbootstrap.com/)
