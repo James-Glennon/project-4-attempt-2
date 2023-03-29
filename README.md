@@ -97,6 +97,8 @@ favicon taken from [Icons8](https://icons8.com/icon/111450/dining-room)
 
 HTML coded using [Bootstrap](https://getbootstrap.com/)
 
+Work around database issue resolved from [Slack thread by Sarah Todd](https://code-institute-room.slack.com/archives/C02B3MJQABA/p1653340155030629)
+
 Website was built closely following instructions provided in the flask and database management lessons provided by Code Institute, taught by Tim Nelson
 
 The following form was taken directly from one lesson and used in this project.

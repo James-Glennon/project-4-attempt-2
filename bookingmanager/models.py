@@ -21,10 +21,10 @@ class DayBookings(db.Model):
     # schema model for booking for a single date
     id = db.Column(db.Integer, primary_key="True")
     booking_date = db.Column(db.Date, db.ForeignKey(
-        "allbookings.booking_date"), nullable="False")
+        "allbookings.booking_date", ondelete="CASCADE"), nullable="False")
     booking_time = db.Column(db.Time, nullable="False")
     name = db.Column(db.String, nullable="False")
 
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
-        return f"#{self.id}"
+        return f"#{self.booking_date}"
