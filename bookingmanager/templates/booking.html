@@ -1,60 +1,81 @@
 {% extends "base.html"%}
 {% block content %}
 <section id="scroll">
-    <h1 class="text-center pt-3">Booking</h1>
-    <div class="container px-5">
+    <h1 class="text-center pt-3">{{ page_title }}</h1>
+    <div class="container px-5 text-center">
         <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle"
-                        src="{{ url_for('static', filename='assets/img/01.jpg') }}" alt="..." /></div>
-            </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                    <h2 class="display-4">For those about to rock...</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit
-                        iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
-                        voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <div class="col-8 offset-2">
+                <div class=>
+                    <h2>We can't wait to see you.</h2>
+                    <p class="text-center"></p>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!-- Content section 2-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="p-5"><img class="img-fluid rounded-circle"
-                        src="{{ url_for('static', filename='assets/img/02.jpg') }}" alt="..." /></div>
-            </div>
-            <div class="col-lg-6">
-                <div class="p-5">
-                    <h2 class="display-4">We salute you!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit
-                        iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
-                        voluptatum molestiae adipisci, beatae obcaecati.</p>
-                </div>
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="text-center">
+                Opening Hours:
+
+                <ul class="text-center align-items-center list-unstyled">
+                    <li>Monday: 11:00 - 20:00</li>
+                    <li>Tuesday: 11:00 - 20:00</li>
+                    <li>Wednesday: 11:00 - 20:00</li>
+                    <li>Thursday: 11:00 - 20:00</li>
+                    <li>Friday: 11:00 - 20:00</li>
+                    <li>Saturday: 13:00 - 23:00</li>
+                    <li>Sunday: 14:00 - 20:00</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- code for form taken from the flask post method lessons by CI instructor Tim Nelson -->
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <form method="POST" name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Name" name="name" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" name="email" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="Phone Number" name="phone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Booking Date</label>
+                            <input type="date" class="form-control" placeholder="Booking Date" name="booking-date" id="booking-date" required data-validation-required-message="Please select a booking date.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Booking Time</label>
+                            <input type="time" class="form-control" placeholder="Booking Time" name="booking-time" id="booking-time" required data-validation-required-message="Please enter a time for you booking.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="form-group text-center pb-3">
+                        <button type="submit" class="btn btn-primary" id="requestBooking">Book Now!</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
 </section>
-<!-- Content section 3-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded-circle"
-                        src="{{ url_for('static', filename='assets/img/03.jpg') }}" alt="..." /></div>
-            </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                    <h2 class="display-4">Let there be rock!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit
-                        iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione
-                        voluptatum molestiae adipisci, beatae obcaecati.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 {% endblock %}
