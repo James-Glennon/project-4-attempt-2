@@ -28,6 +28,17 @@
                 </ul>
             </p>
         </div>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flashes text-center">
+                    {% for message in messages %}
+                    <li><em>{{ message }}</em></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
         <!-- code for form taken from the flask post method lessons by CI instructor Tim Nelson -->
         <!-- Booking request form -->
         <div class="row">
